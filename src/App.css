@@ -6,3 +6,8 @@
 .App h1 {
   font-size: 60px;
 }
+
+.App-footer {
+  text-align: center;
+  margin: 30px 0;
+}
