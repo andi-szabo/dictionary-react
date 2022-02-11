@@ -12,7 +12,16 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          <small>Open source code by Andrea Szabo</small>
+          <small>
+            <a
+              href="https://github.com/andi-szabo/dictionary-react"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Open source code
+            </a>
+            by Andrea Szabo
+          </small>
         </footer>
       </div>
     </div>
