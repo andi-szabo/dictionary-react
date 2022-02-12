@@ -1,14 +1,35 @@
+body {
+  background-color: #f4f3f0;
+  color: #141c4b;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+}
+
+a {
+  color: #dd6f5b;
+}
+
 .App {
   margin: auto 0;
 }
 
-.App-header {
-  margin-top: 30px;
-  text-align: center;
+.App .container {
+  width: 1000px;
 }
 
-.App h1 {
+.App .title {
+  font-family: "Rufina", serif;
+  font-weight: 400;
+  margin-bottom: 60px;
   font-size: 60px;
+}
+
+.App-header {
+  margin-top: 60px;
+  text-align: center;
 }
 
 .App-footer {

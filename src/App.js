@@ -6,10 +6,10 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <h1>Dictionary</h1>
+          <div className="title">Dictionary</div>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="modern" />
         </main>
         <footer className="App-footer">
           <small>
@@ -19,7 +19,7 @@ export default function App() {
               rel="noreferrer"
             >
               Open source code
-            </a>
+            </a>{" "}
             by Andrea Szabo
           </small>
         </footer>
